@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 const cloudDB = 'mongodb+srv://rayo:Sekome123@cluster0.8wsr7vp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const localDB = 'mongodb://localhost:27017/express-mongo-api';
+const localDB = 'mongodb://localhost:27017/serverless-api-lingonn';
 
 app.use(cors());
 app.use(express.json());
