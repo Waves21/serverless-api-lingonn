@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-const cloudDB = 'mongodb+srv://rayo:Sekome123@cluster0.8wsr7vp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const cloudDB = 'mongodb+srv://rayo:4aW49yBoZAMd7V1w@cluster0.mns7uso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const localDB = 'mongodb://localhost:27017/serverless-api-lingonn';
 
 app.use(cors());
